@@ -94,3 +94,44 @@ h1 {
     gap: 10px;
     column-gap: 20px;
 }
+
+.nav-enlace{
+    display: inline-block;
+    margin: 0px 3px;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+}
+nav {
+    background: pink;
+    padding: 10px;
+    display: flex; 
+}
+.nav-enlace:hover {
+    background: rosybrown
+}
+.nav-button{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none
+}
+@media (max-width: 600px) {
+
+nav{
+    background:rgb(244, 161, 152);
+    flex-direction: column;
+}
+.nav-enlace{
+    margin: 10px 0px;
+}
+.nav-button{
+    display: inline-block;
+}
+.dissapear{
+    display:none;
+}
+}
